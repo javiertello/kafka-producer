@@ -7,7 +7,7 @@ http://www.cse.iitb.ac.in/debs2014/?page_id=42
 Configuration
 -------------
 
-Set up your Twitter API credentials and your Kafka brokers in ``conf/producer.conf``
+Set up your kafka brokers in ``conf/producer.conf``
 
 
 Execution
