@@ -1,7 +1,8 @@
-Kafka Twitter Producer
+Kafka Smart-Grid event Producer
 ======================
 
-Consume the Twitter Streaming API and send all messages to a Kafka broker. Use Twitter4j.
+Consume a Smart-Grid data set and send all messages to a Kafka broker.
+http://www.cse.iitb.ac.in/debs2014/?page_id=42
 
 Configuration
 -------------
