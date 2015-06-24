@@ -1,4 +1,4 @@
-package com.nflabs.peloton2.kafka.producer;
+package com.kafka.producer;
 
 public class TwitterSourceConstant {
     public static final String CONSUMER_KEY_KEY = "consumerKey";

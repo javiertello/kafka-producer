@@ -1,4 +1,4 @@
-package com.nflabs.peloton2.kafka.producer;
+package com.kafka.producer;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
