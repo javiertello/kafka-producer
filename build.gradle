@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 
-mainClassName = "com.nflabs.peloton2.kafka.producer.TwitterProducer"
+mainClassName = "com.kafka.producer.EventProducer"
 
 sourceCompatibility = JavaVersion.VERSION_1_6
 version = '0.0.1'
@@ -24,7 +24,7 @@ repositories {
 
 dependencies {
     compile "org.apache.kafka:kafka_2.10:0.8.0"
-    compile "org.twitter4j:twitter4j-stream:4.0.2"
+	compile 'com.google.code.gson:gson:2.3.1'
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 
