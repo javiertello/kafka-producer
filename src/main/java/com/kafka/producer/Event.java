@@ -4,7 +4,7 @@ public class Event {
 	
 	private int id;
 	private int timestamp;
-	private double value;
+	private float value;
 	private int property;
 	private int plug_id;
 	private int household_id;
@@ -32,7 +32,7 @@ public class Event {
 		return value;
 	}
 
-	public void setValue(double value) {
+	public void setValue(float value) {
 		this.value = value;
 	}
 
