@@ -1,10 +1,9 @@
-Kafka Smart-Grid event Producer
+Kafka Smart-Grid event Producer (Synthetic)
 ======================
 
-Consume a Smart-Grid data set and send all messages to a Kafka broker.
+Generate synthetic events and send all messages to a Kafka broker.
 http://www.cse.iitb.ac.in/debs2014/?page_id=42
 
-Data file is located in data/sorted100M.csv
 Configuration
 -------------
 
