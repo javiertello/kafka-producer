@@ -1,16 +1,17 @@
 package com.kafka.producer;
 
 public class Event {
-	
+
 	private int id;
 	private int timestamp;
-	private double value;
+	private float value;
 	private int property;
 	private int plug_id;
 	private int household_id;
 	private int house_id;
-	
-	public Event (){ }
+
+	public Event() {
+	}
 
 	public int getId() {
 		return id;
@@ -32,7 +33,7 @@ public class Event {
 		return value;
 	}
 
-	public void setValue(double value) {
+	public void setValue(float value) {
 		this.value = value;
 	}
 
@@ -67,6 +68,5 @@ public class Event {
 	public void setHouse_id(int house_id) {
 		this.house_id = house_id;
 	}
-	
-	
+
 }
